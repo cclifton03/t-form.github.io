@@ -1,13 +1,4 @@
 ﻿using Amazon.S3.Model;
-using Sabio.Data;
-using Sabio.Data.Providers;
-using Sabio.Models;
-using Sabio.Models.Domain;
-using Sabio.Models.Domain.Locations;
-using Sabio.Models.Domain.Venues;
-using Sabio.Models.Requests.Licenses;
-using Sabio.Models.Requests.VenueRequests;
-using Sabio.Services.Interfaces;
 using Stripe.Terminal;
 using System;
 using System.Collections.Generic;
@@ -17,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
  
-namespace Sabio.Services
+namespace ....###
 {
     public class VenuesService : IVenuesService
     {
