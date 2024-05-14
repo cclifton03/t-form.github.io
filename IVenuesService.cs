@@ -1,13 +1,10 @@
-﻿using Sabio.Models.Domain.Venues;
-using Sabio.Models;
-using Sabio.Models.Requests.VenueRequests;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sabio.Services.Interfaces
+namespace ...###
 {
     public interface IVenuesService
     {
