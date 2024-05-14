@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Formik, Field, Form, ErrorMessage } from "formik";
 import { useNavigate } from "react-router-dom";
-import debug from "sabio-debug";
 import toastr from "toastr";
 import "../venues/venueform.css";
 import venueFormSchema from "schemas/venueFormSchema";
@@ -320,18 +319,7 @@ function VenueForm() {
           </Form>
         </div>
       </Formik>
-      <Modal
-        animation="fade"
-        location={location && location}
-        onHide={closeLocationModal}
-        show={show}
-      >
-        <LocationForm
-          returnId={returnId}
-          location={!location ? null : location}
-          closeLocationModal={closeLocationModal}
-        ></LocationForm>
-      </Modal>
+      
     </div>
   );
 }
